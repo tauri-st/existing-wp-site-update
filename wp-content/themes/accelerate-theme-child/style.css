@@ -21,3 +21,10 @@ Text Domain:  accelerate-theme-child
 .button {
 	background: #45ac9d;
 }
+
+/* Recent Blog Post Exerpt on Homepage */
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
