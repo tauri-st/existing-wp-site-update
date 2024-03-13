@@ -24,7 +24,9 @@ get_header(); ?>
 	</div><!-- #primary -->
 	<section class="recent-posts">
  		<div class="site-content">
-    
+		 <div class="blog-post">
+ 
+ 		</div>
  		</div>
 	</section>
 
