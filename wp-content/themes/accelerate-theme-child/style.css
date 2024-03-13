@@ -35,3 +35,7 @@ Text Domain:  accelerate-theme-child
     text-transform: uppercase;
     margin: 2em 0 .5em;
 }
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
