@@ -22,5 +22,10 @@ get_header(); ?>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
+	<section class="recent-posts">
+ 		<div class="site-content">
+    
+ 		</div>
+	</section>
 
 <?php get_footer(); ?>
