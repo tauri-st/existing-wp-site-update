@@ -27,9 +27,15 @@ get_header(); ?>
 						<p class="read-more-link"><a href="<?php echo $link; ?>">Live Site</a></p>
 					</aside>
 					<div class="case-study-images">
-						<img src="<?php echo $image_1; ?>" alt="" width="300" height="221" class="alignnone size-medium wp-image-47339" />
-						<img src="<?php echo $image_2; ?>" alt="" width="223" height="300" class="alignnone size-medium wp-image-47340" />
-						<img src="<?php echo $image_3; ?>" alt="" width="150" height="300" class="alignnone size-medium wp-image-47341" />
+						<?php if ($image_1) { ?>
+							<img src="<?php echo $image_1; ?>" alt="" width="300" height="221" class="alignnone size-medium wp-image-47339" />
+						<?php } ?>
+						<?php if ($image_2) { ?>
+							<img src="<?php echo $image_2; ?>" alt="" width="223" height="300" class="alignnone size-medium wp-image-47340" />
+						<?php } ?>
+						<?php if ($image_3) { ?>
+							<img src="<?php echo $image_3; ?>" alt="" width="150" height="300" class="alignnone size-medium wp-image-47341" />
+						<?php } ?>
 					</div>
 				</article>
 			<?php endwhile; // end of the loop. ?>
