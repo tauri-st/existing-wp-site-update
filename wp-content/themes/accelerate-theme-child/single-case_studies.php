@@ -20,11 +20,11 @@ get_header(); ?>
 				$image_3 = get_field('image_3');
 				<article class="case-study">
 					<aside class="case-study-sidebar">
-						<h2>MailChimp Campaign</h2>
-						<h4>Content Strategy, Design and Development</h4>
-						<h4><span>Client: MailChimp</span></h4>
-						<p>This is a project I made for this company. Here is the early stage startup that I helped design and do front-end and back-end dev for</p>
-						<p class="read-more-link"><a href="#">Visit Live Site</a></p>
+						<h2><?php the_title(); ?></h2>
+						<h4><?php echo $services; ?></h4>
+						<h4><span>Client: <?php echo $client; ?></span></h4>
+						<p><?php the_content(); ?></p>
+						<p class="read-more-link"><a href="<?php echo $link; ?>">Visit Live Site</a></p>
 					</aside>
 					<div class="case-study-images">
 						<img src="http://localhost/accelerate/wp-content/uploads/2024/03/mc-thumbnail-1-300x221.png" alt="" width="300" height="221" class="alignnone size-medium wp-image-47339" />
