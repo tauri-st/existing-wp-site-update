@@ -18,6 +18,7 @@ get_header(); ?>
 				$image_1 = get_field('image_1');
 				$image_2 = get_field('image_2');
 				$image_3 = get_field('image_3');
+				$size = "full";
 				<article class="case-study">
 					<aside class="case-study-sidebar">
 						<h2><?php the_title(); ?></h2>
