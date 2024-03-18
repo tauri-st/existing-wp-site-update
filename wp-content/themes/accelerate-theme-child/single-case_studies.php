@@ -24,12 +24,12 @@ get_header(); ?>
 						<h4><?php echo $services; ?></h4>
 						<h4><span>Client: <?php echo $client; ?></span></h4>
 						<p><?php the_content(); ?></p>
-						<p class="read-more-link"><a href="<?php echo $link; ?>">Visit Live Site</a></p>
+						<p class="read-more-link"><a href="<?php echo $link; ?>">Live Site</a></p>
 					</aside>
 					<div class="case-study-images">
-						<img src="http://localhost/accelerate/wp-content/uploads/2024/03/mc-thumbnail-1-300x221.png" alt="" width="300" height="221" class="alignnone size-medium wp-image-47339" />
-						<img src="http://localhost/accelerate/wp-content/uploads/2024/03/mc-thumbnail-2-223x300.png" alt="" width="223" height="300" class="alignnone size-medium wp-image-47340" />
-						<img src="http://localhost/accelerate/wp-content/uploads/2024/03/mc-thumbnail-3-150x300.png" alt="" width="150" height="300" class="alignnone size-medium wp-image-47341" />
+						<img src="<?php echo $image_1; ?>" alt="" width="300" height="221" class="alignnone size-medium wp-image-47339" />
+						<img src="<?php echo $image_2; ?>" alt="" width="223" height="300" class="alignnone size-medium wp-image-47340" />
+						<img src="<?php echo $image_3; ?>" alt="" width="150" height="300" class="alignnone size-medium wp-image-47341" />
 					</div>
 				</article>
 			<?php endwhile; // end of the loop. ?>
