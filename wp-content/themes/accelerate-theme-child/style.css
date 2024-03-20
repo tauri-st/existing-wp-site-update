@@ -23,9 +23,19 @@ Text Domain:  accelerate-theme-child
 }
 
 /* Featured Work Section on Homepage */
-.case-thumbnail {
-	width: 33%;
+.homepage-featured-work {
+	list-style: none;
+	padding: 0;
 }
+
+.featured-work-single {
+	display: inline-block;
+	margin: 20px;
+}
+
+/*.case-thumbnail {
+	width: 33%;
+}*/
 
 /* Recent Blog Post Exerpt on Homepage */
 .blog-post {

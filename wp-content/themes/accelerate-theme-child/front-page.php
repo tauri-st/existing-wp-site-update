@@ -31,7 +31,7 @@ get_header(); ?>
 						$image_1 = get_field("image_1");
 						$size = "thumbnail";
 					?>
-						<li>
+						<li class="featured-work-single">
 							<figure class="case-thumbnail">
 								<?php echo wp_get_attachment_image( $image_1, $size ); ?>
 							</figure>
