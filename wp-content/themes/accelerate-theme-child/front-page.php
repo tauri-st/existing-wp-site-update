@@ -32,7 +32,7 @@ get_header(); ?>
 						$size = "thumbnail";
 					?>
 						<li>
-							<figure>
+							<figure class="case-thumbnail">
 								<?php echo wp_get_attachment_image( $image_1, $size ); ?>
 							</figure>
 							<h3>

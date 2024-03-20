@@ -22,6 +22,11 @@ Text Domain:  accelerate-theme-child
 	background: #45ac9d;
 }
 
+/* Featured Work Section on Homepage */
+.case-thumbnail {
+	width: 33%;
+}
+
 /* Recent Blog Post Exerpt on Homepage */
 .blog-post {
 	width: 50%;
