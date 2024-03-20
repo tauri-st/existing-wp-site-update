@@ -29,10 +29,10 @@ get_header(); ?>
 				<?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
 					<?php while ( have_posts() ) : the_post();
 						$image_1 = get_field("image_1");
-						$size = "thumbnail";
+						$size = "medium";
 					?>
 						<li class="featured-work-single">
-							<figure class="case-thumbnail">
+							<figure>
 								<?php echo wp_get_attachment_image( $image_1, $size ); ?>
 							</figure>
 							<h3>

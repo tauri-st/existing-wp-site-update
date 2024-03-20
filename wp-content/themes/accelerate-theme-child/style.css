@@ -30,12 +30,8 @@ Text Domain:  accelerate-theme-child
 
 .featured-work-single {
 	display: inline-block;
-	margin: 20px;
+	margin: 5px;
 }
-
-/*.case-thumbnail {
-	width: 33%;
-}*/
 
 /* Recent Blog Post Exerpt on Homepage */
 .blog-post {
