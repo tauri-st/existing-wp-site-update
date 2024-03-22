@@ -70,6 +70,7 @@ div.case-study-images{
 	width: 606px;
 }
 
-img {
+div.case-study-images img {
 	width: 100%;
+	height: auto;
 }
