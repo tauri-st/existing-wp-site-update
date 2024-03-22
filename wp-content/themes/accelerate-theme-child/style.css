@@ -80,4 +80,7 @@ div.case-study-images{
 }
 
 /* Case Studies Archive */
-
+.case-archive {
+	display: flex;
+	flex-direction: column;
+}
