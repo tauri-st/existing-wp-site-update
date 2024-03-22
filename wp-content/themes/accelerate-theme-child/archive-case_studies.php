@@ -26,7 +26,7 @@ get_header(); ?>
 
 						<?php the_exerpt(); ?>
 
-						<p><a href="<?php the_permalink(); ?>">Live Site</a></p>
+						<p><a href="<?php the_permalink(); ?>">View Project</a></p>
 					</aside>
 
 					<div class="case-study-images">
