@@ -19,7 +19,22 @@ get_header(); ?>
 				$image_1 = get_field("image_1");
 				$size = "full";
             ?>
-				<?php the_exerpt(); ?>
+                <article class="case-study">
+					<aside class="case-study-sidebar">
+						<h2><?php the_title(); ?></h2>
+						<h4><?php echo $services; ?></h4>
+
+						<?php the_exerpt(); ?>
+
+						<p><a href="<?php the_permalink(); ?>">Live Site</a></p>
+					</aside>
+
+					<div class="case-study-images">
+						<?php if ($image_1) { 
+							echo wp_get_attachment_image( $image_1, $size );
+						} ?>
+					</div>
+				</article>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 
