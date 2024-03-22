@@ -24,7 +24,7 @@ get_header(); ?>
 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						<h4><?php echo $services; ?></h4>
 
-						<?php the_content(); ?>
+						<?php the_excerpt(); ?>
 
 						<p><a href="<?php the_permalink(); ?>">View Project</a></p>
 					</aside>
