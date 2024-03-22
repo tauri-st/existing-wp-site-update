@@ -21,7 +21,7 @@ get_header(); ?>
             ?>
                 <article class="case-study">
 					<aside class="case-study-sidebar">
-						<h2><?php the_title(); ?></h2>
+						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						<h4><?php echo $services; ?></h4>
 
 						<?php the_exerpt(); ?>
@@ -30,9 +30,11 @@ get_header(); ?>
 					</aside>
 
 					<div class="case-study-images">
-						<?php if ($image_1) { 
-							echo wp_get_attachment_image( $image_1, $size );
-						} ?>
+                        <a href="<?php the_permalink(); ?>">
+                            <?php if ($image_1) { 
+                                echo wp_get_attachment_image( $image_1, $size );
+                            } ?>
+                        </a>
 					</div>
 				</article>
 			<?php endwhile; // end of the loop. ?>
