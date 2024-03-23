@@ -19,7 +19,7 @@ get_header(); ?>
 				$image_1 = get_field("image_1");
 				$size = "full";
             ?>
-                <article class="case-study">
+                <article class="case-study-archive">
 					<aside class="case-study-sidebar">
 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						<h4><?php echo $services; ?></h4>

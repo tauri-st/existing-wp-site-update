@@ -84,3 +84,9 @@ div.case-study-images{
 	display: flex;
 	flex-direction: column;
 }
+
+.case-study-archive {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
