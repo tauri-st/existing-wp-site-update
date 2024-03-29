@@ -13,8 +13,6 @@
  /* TO DO:
  * Get rid of "Read More" link, appears to come with the_exerpt.
  * Limit exercpt to less words
- * Create more space between images for case study singles
- * Style services headline (probs for singles and archive)
  */
 
 get_header(); ?>

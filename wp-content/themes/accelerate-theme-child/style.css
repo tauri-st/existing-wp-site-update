@@ -74,6 +74,10 @@ Text Domain:  accelerate-theme-child
 	justify-content: space-between;
 }
 
+div.case-study-images {
+	margin-bottom: 3rem;
+}
+
 div.case-study-images img {
 	margin-top: 3rem;
 	width: 100%;
