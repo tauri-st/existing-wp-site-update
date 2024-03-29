@@ -23,6 +23,13 @@ Text Domain:  accelerate-theme-child
 }
 
 /* Featured Work Section on Homepage */
+.featured-work .site-content h4 {
+	margin-bottom: 2rem;
+	margin-top: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 .homepage-featured-work {
 	display: flex;
 	flex-wrap: wrap;
