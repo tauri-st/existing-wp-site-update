@@ -72,10 +72,10 @@ Text Domain:  accelerate-theme-child
 .case-study {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 3rem;
 }
 
 div.case-study-images img {
+	margin-top: 3rem;
 	width: 100%;
 	height: auto;
 }
@@ -88,6 +88,7 @@ aside.case-study-sidebar {
 }
 
 aside.case-study-sidebar h2 {
+	margin-top: 6rem;
 	margin-bottom: 0;
 }
 
