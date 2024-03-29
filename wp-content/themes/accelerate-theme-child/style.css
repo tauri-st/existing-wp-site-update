@@ -69,6 +69,11 @@ Text Domain:  accelerate-theme-child
 
 /* Case Studies - General */
 
+.case-study {
+	display: flex;
+	justify-content: space-between;
+}
+
 div.case-study-images img {
 	width: 100%;
 	height: auto;
