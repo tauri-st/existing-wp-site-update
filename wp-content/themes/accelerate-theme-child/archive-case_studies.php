@@ -11,8 +11,7 @@
  */
 
  /* TO DO:
- * Get rid of "Read More" link, appears to come with the_exerpt.
- * Limit exercpt to less words
+ * fix margin for archive images but keep other pages spaced
  */
 
 get_header(); ?>
@@ -34,7 +33,7 @@ get_header(); ?>
 						<p><strong><a class="read-more-link" href="<?php the_permalink(); ?>">View Project ></a></strong></p>
 					</aside>
 
-					<div class="case-study-images">
+					<div class="case-study-images archive-images">
                         <a href="<?php the_permalink(); ?>">
                             <?php if ($image_1) { 
                                 echo wp_get_attachment_image( $image_1, $size );

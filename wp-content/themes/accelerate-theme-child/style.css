@@ -127,3 +127,7 @@ div.case-study-images{
 	align-items: center;
 	justify-content: space-between;
 }
+
+.archive-images img {
+	margin-top: 0;
+}
