@@ -29,7 +29,7 @@ get_header(); ?>
                 <article class="case-study-archive">
 					<aside class="case-study-sidebar">
 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-						<h4><?php echo $services; ?></h4>
+						<h3><?php echo $services; ?></h3>
 
 						<?php the_excerpt(); ?>
 
