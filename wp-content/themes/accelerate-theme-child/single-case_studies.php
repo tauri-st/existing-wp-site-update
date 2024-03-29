@@ -25,7 +25,7 @@ get_header(); ?>
 						<h3><?php echo $services; ?></h3>
 						<h4><span>Client: <?php echo $client; ?></span></h4>
 						<p><?php the_content(); ?></p>
-						<p class="read-more-link"><a href="<?php echo $site_link; ?>">Live Site</a></p>
+						<p class="read-more-link"><a href="<?php echo $site_link; ?>">Visit Live Site ></a></p>
 					</aside>
 					<div class="case-study-images">
 						<?php if ($image_1) { 
