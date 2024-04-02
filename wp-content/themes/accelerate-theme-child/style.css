@@ -26,6 +26,37 @@ Text Domain:  accelerate-theme-child
 	background: #45ac9d;
 }
 
+/* Footer */
+
+/* Social Icons */
+
+/*.menu-social-media-nav-container {
+	display: flex;
+}*/
+
+.social-media-menu {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.social-media-menu li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	border-radius: 50%;
+	margin: 0;
+	padding: 0;
+	height: 28px;
+	width: 28px;
+}
+
+.social-media-menu a .wpmi__icon {
+	display: flex;
+}
+
 /* Featured Work Section on Homepage */
 .featured-work .site-content h4 {
 	margin-bottom: 2rem;
