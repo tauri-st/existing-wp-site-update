@@ -173,3 +173,32 @@ div.case-study-images{
 .archive-images a img {
 	margin-top: .5rem;
 }
+
+/* Contact Form */
+/*nf-fields-wrap {
+	display: flex;
+}*/
+
+#nf-field-2-container {
+	margin-left: 0;
+}
+
+#nf-field-1-container,
+#nf-field-2-container,
+#nf-field-3-container {
+	width: 100%;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1200px) {
+
+	#nf-field-2-container {
+		margin-left: 3rem;
+	}
+
+	#nf-field-1-container,
+	#nf-field-2-container {
+		display: inline-block;
+		width: 47%;
+	}
+}
