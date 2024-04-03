@@ -53,9 +53,15 @@ Text Domain:  accelerate-theme-child
 	width: 28px;
 }
 
-.social-media-menu a .wpmi__icon {
-	display: flex;
-}
+.social-media-menu a .wpmi__icon #text {
+	/*display: flex;*/
+	position: absolute;
+	left: 0;
+	top: -580px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	}
 
 /* Featured Work Section on Homepage */
 .featured-work .site-content h4 {
