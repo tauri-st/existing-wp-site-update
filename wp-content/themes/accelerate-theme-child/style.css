@@ -30,10 +30,6 @@ Text Domain:  accelerate-theme-child
 
 /* Social Icons */
 
-/*.menu-social-media-nav-container {
-	display: flex;
-}*/
-
 .social-media-menu {
 	display: flex;
 	justify-content: space-evenly;
@@ -42,26 +38,21 @@ Text Domain:  accelerate-theme-child
 
 .social-media-menu li {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: black;
+	background-color: #3b3b3b;
 	border-radius: 50%;
 	margin: 0;
 	padding: 0;
-	height: 28px;
-	width: 28px;
+	height: 30px;
+	width: 30px;
 }
 
-.social-media-menu a .wpmi__icon #text {
-	/*display: flex;*/
-	position: absolute;
-	left: 0;
-	top: -580px;
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-	}
+.social-media-menu li a ._mi {
+	color: white;
+	margin: 0;
+	padding: 0;
+}
 
 /* Featured Work Section on Homepage */
 .featured-work .site-content h4 {
