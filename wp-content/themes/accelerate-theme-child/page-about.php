@@ -22,6 +22,13 @@ get_header(); ?>
 				$size = "medium"; ?>
                 <h2><?php the_title(); ?></h2>
 				<?php the_content(); ?>
+                <article class="services-content">
+                    <img src="<?php echo $icon_1; ?>" />
+                    <div class="service-text">
+                        <h3><?php echo $service_title; ?></h3>
+                        <p><?php echo $service_description; ?></p>
+                    </div>
+                </article>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 
