@@ -1,3 +1,5 @@
+<?php /* Template Name: About Page */ ?>
+
 <?php
 /**
  * The template for displaying the About page
