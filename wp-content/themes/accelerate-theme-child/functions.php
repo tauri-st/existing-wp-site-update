@@ -29,5 +29,16 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+    register_post_type( 'service_features',
+        array(
+            'labels' => array(
+                'name' => __( 'Service Features' ),
+                'singular_name' => __( 'Service Feature' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'service-features' ),
+        )
+    );
 }
 add_action( 'init', 'create_custom_post_types' );
