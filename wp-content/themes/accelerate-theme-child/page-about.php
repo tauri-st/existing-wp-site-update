@@ -39,7 +39,7 @@ get_header(); ?>
                         <h3><?php echo $service_1_headline; ?></h3>
                         <p><?php echo $service_1_description; ?></p>
                     </article>
-                    <article class="service-single">
+                    <article class="service-single reverse-wrap">
                         <figure class="service-icon">
                             <?php if($icon_2){
                                 echo wp_get_attachment_image( $icon_2, $size );
@@ -58,7 +58,7 @@ get_header(); ?>
                         <p><?php echo $service_3_description; ?></p>
                     </article>
                     <article class="service-single">
-                        <figure class="service-icon">
+                        <figure class="service-icon reverse-wrap">
                             <?php if($icon_4){
                                 echo wp_get_attachment_image( $icon_4, $size );
                             }?>
