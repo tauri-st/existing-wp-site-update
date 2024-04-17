@@ -79,6 +79,12 @@ get_header(); ?>
                         </div>
                     </article>
                 </section>
+                <section class="services-cta">
+                    <div class="services-cta-container">
+                        <h3>Interested in working with us?</h3>
+                        <a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a>
+                    </div>
+                </section>
 		</div><!-- .main-content -->
 
 	</div><!-- #primary -->
