@@ -228,19 +228,16 @@ div.case-study-images{
 .service-single {
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 }
 
 .reverse-wrap {
-	flex-direction: row-reverse;
+	flex-direction: column;
 }
 
 .service-icon {
-	margin-left: 2rem;
+	margin-top: 1rem;
 	width: 35%;
-}
-
-.reverse-wrap .service-icon {
-	margin-left: 4rem;
 }
 
 .service-info {
@@ -259,6 +256,7 @@ div.case-study-images{
 .services-cta {
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 	justify-content: space-evenly;
 	border-top: 1px solid #c8c8c8;
 	padding-top: 3rem;
@@ -267,4 +265,31 @@ div.case-study-images{
 
 .services-cta h3 {
 	margin: 0;
+}
+
+.services-cta .button {
+	margin-top: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+	.service-single {
+		flex-direction: row;
+	}
+	.reverse-wrap {
+		flex-direction: row-reverse;
+	}
+	.service-icon {
+		margin-left: 2rem;
+		margin-top: 0;
+	}
+	.reverse-wrap .service-icon {
+		margin-left: 4rem;
+	}
+	.services-cta {
+		flex-direction: row;
+	}
+	.services-cta .button {
+		margin-top: 0;
+	}
+	
 }
