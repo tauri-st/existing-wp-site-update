@@ -204,3 +204,9 @@ div.case-study-images{
 		width: 47%;
 	}
 }
+
+/* About Page - Custom Our Service - Styles */
+
+.service-single {
+	display: flex;
+}
