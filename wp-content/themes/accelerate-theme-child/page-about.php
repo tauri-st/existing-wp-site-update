@@ -21,13 +21,15 @@ get_header(); ?>
                 <h2><?php the_title(); ?></h2>
 				<?php the_content(); ?>
                 <section class="services-content">
-                    <div class="service-single">
+                    <article class="service-single">
                         <figure class="service-icon">
-                            <img src="<?php echo $icon_1; ?>" />
+                            <?php if($icon_1){
+                                echo wp_get_attachment_image( $icon_1, $size );
+                            }?>
                         </figure>
                         <h3><?php echo $service_1_headline; ?></h3>
                         <p><?php echo $service_1_description; ?></p>
-                    </div>
+                    </article>
                 </section>
 		</div><!-- .main-content -->
 
