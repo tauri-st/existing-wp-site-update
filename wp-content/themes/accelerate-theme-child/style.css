@@ -215,3 +215,16 @@ div.case-study-images{
 .reverse-wrap {
 	flex-direction: row-reverse;
 }
+
+.service-icon {
+	margin-left: 2rem;
+	width: 35%;
+}
+
+.reverse-wrap .service-icon {
+	margin-left: 4rem;
+}
+
+.service-info {
+	width: 65%;
+}
