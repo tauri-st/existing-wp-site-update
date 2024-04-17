@@ -221,6 +221,10 @@ div.case-study-images{
 	text-transform: uppercase;
 }
 
+.services-content {
+	padding-bottom: 3rem;
+}
+
 .service-single {
 	display: flex;
 	align-items: center;
@@ -250,4 +254,17 @@ div.case-study-images{
 
 .service-info p {
 	margin-top: .75rem;
+}
+
+.services-cta {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-top: 1px solid #c8c8c8;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+
+.services-cta h3 {
+	margin: 0;
 }
