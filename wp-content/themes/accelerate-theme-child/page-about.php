@@ -27,8 +27,12 @@ get_header(); ?>
                 $service_4_headline = get_field("service_4_headline");
                 $service_4_description = get_field("service_4_description");
 				$size = "medium"; ?>
-                <h2><?php the_title(); ?></h2>
-				<?php the_content(); ?>
+                <div class="services-intro-container">
+                    <section class="services-intro">
+                        <h2><?php the_title(); ?></h2>
+                        <p><?php the_content(); ?></p>
+                    </section>
+                </div>
                 <section class="services-content">
                     <article class="service-single">
                         <figure class="service-icon">

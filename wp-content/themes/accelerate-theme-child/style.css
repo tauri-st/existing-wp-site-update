@@ -207,6 +207,20 @@ div.case-study-images{
 
 /* About Page - Custom Our Service - Styles */
 
+.services-intro-container {
+	display: flex;
+	justify-content: center;
+}
+
+.services-intro {
+	text-align: center;
+	width: 60%;
+}
+
+.services-intro h2 {
+	text-transform: uppercase;
+}
+
 .service-single {
 	display: flex;
 	align-items: center;
