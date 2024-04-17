@@ -39,6 +39,33 @@ get_header(); ?>
                         <h3><?php echo $service_1_headline; ?></h3>
                         <p><?php echo $service_1_description; ?></p>
                     </article>
+                    <article class="service-single">
+                        <figure class="service-icon">
+                            <?php if($icon_2){
+                                echo wp_get_attachment_image( $icon_2, $size );
+                            }?>
+                        </figure>
+                        <h3><?php echo $service_2_headline; ?></h3>
+                        <p><?php echo $service_2_description; ?></p>
+                    </article>
+                    <article class="service-single">
+                        <figure class="service-icon">
+                            <?php if($icon_3){
+                                echo wp_get_attachment_image( $icon_3, $size );
+                            }?>
+                        </figure>
+                        <h3><?php echo $service_3_headline; ?></h3>
+                        <p><?php echo $service_3_description; ?></p>
+                    </article>
+                    <article class="service-single">
+                        <figure class="service-icon">
+                            <?php if($icon_4){
+                                echo wp_get_attachment_image( $icon_4, $size );
+                            }?>
+                        </figure>
+                        <h3><?php echo $service_4_headline; ?></h3>
+                        <p><?php echo $service_4_description; ?></p>
+                    </article>
                 </section>
 		</div><!-- .main-content -->
 
