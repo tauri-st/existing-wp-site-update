@@ -209,4 +209,9 @@ div.case-study-images{
 
 .service-single {
 	display: flex;
+	align-items: center;
+}
+
+.reverse-wrap {
+	flex-direction: row-reverse;
 }

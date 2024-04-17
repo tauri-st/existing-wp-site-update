@@ -63,8 +63,8 @@ get_header(); ?>
                             <p><?php echo $service_3_description; ?></p>
                         </div>
                     </article>
-                    <article class="service-single">
-                        <figure class="service-icon reverse-wrap">
+                    <article class="service-single reverse-wrap">
+                        <figure class="service-icon">
                             <?php if($icon_4){
                                 echo wp_get_attachment_image( $icon_4, $size );
                             }?>
