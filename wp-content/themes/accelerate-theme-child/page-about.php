@@ -13,7 +13,7 @@ get_header(); ?>
 
 	<div id="primary" class="site-content sidebar">
 		<div class="main-content" role="main">
-			<?php
+			<?php while ( have_posts() ) : the_post();
                 $icon_1 = get_field("service_1_icon");
                 $service_1_headline = get_field("service_1_headline");
                 $service_1_description = get_field("service_1_description");
@@ -85,6 +85,7 @@ get_header(); ?>
                         <a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a>
                     <!-- </div> -->
                 </section>
+            <?php endwhile; ?> 
 		</div><!-- .main-content -->
 
 	</div><!-- #primary -->
