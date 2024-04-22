@@ -12,7 +12,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="site-content sidebar">
+	<div id="primary" class="site-content">
 		<div class="case-archive main-content" role="main">
 			<?php while ( have_posts() ) : the_post(); 
                 $services = get_field("services");
