@@ -261,6 +261,7 @@ div.case-study-images{
 .error-page {
 	display: flex;
 	justify-content: center;
+	padding-top: 2rem;
 }
 
 .error-code-container {
@@ -279,8 +280,9 @@ div.case-study-images{
 }
 
 .error-message h1 {
-	font-size: 2rem;
 	color: #45ac9d;
+	font-size: 2rem;
+	margin-top: 1rem;
 }
 
 .link {
