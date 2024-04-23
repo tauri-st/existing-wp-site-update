@@ -191,20 +191,6 @@ div.case-study-images{
 	/*padding: 15px 70px 15px 70px;*/
 }
 
-/* Desktop Styles */
-@media only screen and (min-width: 1200px) {
-
-	#nf-field-2-container {
-		margin-left: 3rem;
-	}
-
-	#nf-field-1-container,
-	#nf-field-2-container {
-		display: inline-block;
-		width: 47%;
-	}
-}
-
 /* About Page - Custom Our Service - Styles */
 
 .services-intro-container {
@@ -292,4 +278,18 @@ div.case-study-images{
 		margin-top: 0;
 	}
 	
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1200px) {
+
+	#nf-field-2-container {
+		margin-left: 3rem;
+	}
+
+	#nf-field-1-container,
+	#nf-field-2-container {
+		display: inline-block;
+		width: 47%;
+	}
 }
