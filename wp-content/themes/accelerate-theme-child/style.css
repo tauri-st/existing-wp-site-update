@@ -257,7 +257,34 @@ div.case-study-images{
 	margin-top: 1rem;
 }
 
+/* 404 page */
+.error-page {
+	display: flex;
+	justify-content: center;
+}
+
+.error-code-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 80%;
+}
+
+.error-image-container {
+	width: 40%;
+}
+
+.error-message {
+	padding: 2rem;
+}
+
+.error-message h1 {
+	font-size: 2rem;
+	color: #45ac9d;
+}
+
 @media only screen and (min-width: 768px) {
+	/*Our Services*/
 	.service-single {
 		flex-direction: row;
 	}
@@ -277,7 +304,10 @@ div.case-study-images{
 	.services-cta .button {
 		margin-top: 0;
 	}
-	
+	/* 404 page */
+	.error-code-container {
+		flex-direction: row;
+	}
 }
 
 /* Desktop Styles */

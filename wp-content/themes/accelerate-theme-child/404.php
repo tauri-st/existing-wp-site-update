@@ -15,10 +15,10 @@
 get_header(); ?>
 
     <div id="primary" class="site-content">
-		<div class="main-content" role="main">
-           <div class="404-error-container">
-                <div class="error-image">
-                    <figure>
+		<div class="main-content error-page" role="main">
+           <div class="error-code-container">
+                <div class="error-image-container">
+                    <figure class="error-image">
                     <?php
                         // query an image attachment by its filename
                         $attachment = get_posts(
