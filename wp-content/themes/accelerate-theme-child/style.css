@@ -283,6 +283,12 @@ div.case-study-images{
 	color: #45ac9d;
 }
 
+.link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+}
+
 @media only screen and (min-width: 768px) {
 	/*Our Services*/
 	.service-single {

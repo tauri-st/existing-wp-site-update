@@ -40,9 +40,16 @@ get_header(); ?>
                 </div>
                 <div class="error-message">
                     <h1>Whoops, Took a Wrong Turn...</h1>
-                    <p>Sorry, this page no longer exists, never existed, or has been moved.
-                        We feel like complete jerks for totally misleading you.</p>
-                    <p>Feel free to take a look around our blog or some our featured work.</p>
+                    <p>
+                        Sorry, this page no longer exists, never existed, or has been moved.
+                        We feel like complete jerks for totally misleading you.
+                    </p>
+                    <p>
+                        Feel free to take a look around our 
+                        <a class="link" href="<?php echo site_url('/blog/') ?>">blog</a> 
+                        or some our 
+                        <a class="link" href="<?php echo site_url('/case-studies/') ?>">featured work.</a>
+                    </p>
                 </div>
             </div> 
         </div><!-- .main-content -->
