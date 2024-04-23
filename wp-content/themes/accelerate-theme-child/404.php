@@ -21,20 +21,20 @@ get_header(); ?>
                     <figure>
                     <?php
                         // query an image attachment by its filename
-                            $attachment = get_posts(
-                                array(
-                                    'post_type'      => 'attachment',
-                                    'post_mime_type' => 'image',
-                                    'name'           => '404-map', // Replace with your image filename without extension
-                                    'posts_per_page' => 1,
-                                )
-                            );
+                        $attachment = get_posts(
+                            array(
+                                'post_type'      => 'attachment',
+                                'post_mime_type' => 'image',
+                                'name'           => '404-map', // Replace with your image filename without extension
+                                'posts_per_page' => 1,
+                            )
+                        );
 
-                            if ( $attachment ) {
-                                $attachment_id = $attachment[0]->ID;
-                                echo wp_get_attachment_image( $attachment_id, 'full' );
-                            }
-                            ?>
+                        if ( $attachment ) {
+                            $attachment_id = $attachment[0]->ID;
+                            echo wp_get_attachment_image( $attachment_id, 'full' );
+                        }
+                    ?>
 
                     </figure>
                 </div>
