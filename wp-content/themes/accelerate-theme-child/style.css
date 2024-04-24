@@ -281,8 +281,14 @@ div.case-study-images{
 
 .error-message h1 {
 	color: #45ac9d;
-	font-size: 2rem;
+	font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', 'Arial', sans-serif;
+	font-size: 3rem;
 	margin-top: 1rem;
+}
+
+.error-message p {
+	font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', 'Arial', sans-serif;
+	font-size: 1.33rem;
 }
 
 .link {
