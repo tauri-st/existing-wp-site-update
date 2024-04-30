@@ -28,6 +28,11 @@ Text Domain:  accelerate-theme-child
 
 /***** Sidebar *****/
 
+.about-links em {
+	font-weight: 800;
+	text-decoration: underline;
+}
+
 /***** Footer *****/
 
 /* Social Icons */
