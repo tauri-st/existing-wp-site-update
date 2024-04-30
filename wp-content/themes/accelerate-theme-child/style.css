@@ -49,11 +49,15 @@ Text Domain:  accelerate-theme-child
 	border-left: none;
 	font: .875em/1.75em 'Open Sans', Arial, sans-serif;
 	height: 2.5rem;
-	background: url('img/white-arrow-right.png') no-repeat center #45ac9d;
+	background-color: #45ac9d;
 	color: #ffffff;
 	margin-left: -5px;
 	padding: 0;
 	vertical-align: middle;
+}
+
+#block-11 .wp-widget-group__inner-blocks {
+
 }
 
 /***** Footer *****/
