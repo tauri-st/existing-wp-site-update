@@ -37,6 +37,10 @@ Text Domain:  accelerate-theme-child
 	text-decoration: underline;
 }
 
+.wp-block-search__label {
+	align-items: center;
+}
+
 .wp-block-search__button {
 	width: 13%;
 	border-top: 1px solid #a6a6a6;
@@ -44,7 +48,7 @@ Text Domain:  accelerate-theme-child
 	border-right: 1px solid #a6a6a6;
 	border-left: none;
 	font: .875em/1.75em 'Open Sans', Arial, sans-serif;
-	height: 2.6rem;
+	height: 2.5rem;
 	background: url('img/white-arrow-right.png') no-repeat center #45ac9d;
 	color: #ffffff;
 	margin-left: -5px;
