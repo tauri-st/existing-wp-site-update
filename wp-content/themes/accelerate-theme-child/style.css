@@ -56,8 +56,8 @@ Text Domain:  accelerate-theme-child
 	vertical-align: middle;
 }
 
-#block-11 .wp-widget-group__inner-blocks {
-
+#block-11 .wp-widget-group__inner-blocks figure {
+	padding-bottom: .9rem;
 }
 
 /***** Footer *****/
