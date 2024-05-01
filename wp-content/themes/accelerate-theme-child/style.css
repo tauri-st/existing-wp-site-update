@@ -60,6 +60,11 @@ Text Domain:  accelerate-theme-child
 	padding-bottom: .9rem;
 }
 
+.newsletter-sign-up input[type="submit"] {
+	background-color: #45ac9d;
+	padding: 10px 86px;
+}
+
 /***** Footer *****/
 
 /* Social Icons */
